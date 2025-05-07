@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>☀️ Solar Cheats - Roblox Script Hub</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: radial-gradient(circle at top, #0f0f1b, #000000);
+      color: white;
+      overflow-x: hidden;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #00f7ff;
+      text-shadow: 0 0 10px #00f7ff, 0 0 30px #00f7ff;
+    }
+
+    .tagline {
+      font-size: 1.2em;
+      color: #cccccc;
+      margin-top: -10px;
+    }
+
+    .glow-box {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 30px;
+      border: 2px solid #00f7ff;
+      box-shadow: 0 0 20px #00f7ff88;
+      background-color: rgba(0, 0, 0, 0.5);
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+    }
+
+    .glow-box h2 {
+      color: #00f7ff;
+    }
+
+    .script-box {
+      background-color: #111;
+      color: #0f0;
+      font-family: monospace;
+      padding: 15px;
+      border-radius: 10px;
+      border: 1px dashed #0f0;
+      overflow-x: auto;
+      white-space: pre-wrap;
+      margin-top: 20px;
+    }
+
+    .copy-btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 12px 30px;
+      background: linear-gradient(90deg, #00f7ff, #006aff);
+      color: #000;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #00f7ff;
+      transition: transform 0.2s ease;
+      cursor: pointer;
+    }
+
+    .copy-btn:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      padding: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>☀️ Solar Cheats</h1>
+    <div class="tagline">The Brightest Roblox Script Hub In The Galaxy</div>
+  </header>
+
+  <div class="glow-box">
+    <h2>🌠 About Solar Cheats</h2>
+    <p>Solar Cheats is a sleek and powerful interface offering Roblox scripts for advanced automation, fun, and more. Built with speed and security in mind, Solar Cheats shines above the rest.</p>
+
+    <h2>🧪 Sample Script</h2>
+    <div class="script-box" id="scriptText">
+-- Sample Roblox Script
+loadstring(game:HttpGet("https://solarhub.fakeurl/script.lua"))()
+    </div>
+
+    <div class="copy-btn" onclick="copyScript()">📋 Copy Script</div>
+  </div>
+
+  <footer>
+    ⚠️ This page is fictional and for educational design use only. Do not use exploits in games.<br/>
+    &copy; 2025 Solar Cheats Design. All rights reserved.
+  </footer>
+
+  <script>
+    function copyScript() {
+      const scriptText = document.getElementById("scriptText").innerText;
+      navigator.clipboard.writeText(scriptText).then(() => {
+        alert("✅ Script copied to clipboard!");
+      }, () => {
+        alert("❌ Failed to copy script.");
+      });
+    }
+  </script>
+
+</body>
+</html>
